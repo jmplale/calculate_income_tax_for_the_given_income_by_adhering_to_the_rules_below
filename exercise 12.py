@@ -17,4 +17,6 @@ def tax(income):
     # return to tax_to_pay
     return tax_to_pay
 
+# run the program
+tax(45000)
  
