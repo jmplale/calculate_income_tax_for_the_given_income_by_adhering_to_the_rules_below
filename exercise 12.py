@@ -14,5 +14,7 @@ def tax(income):
     else:
         tax_to_pay = 1000 + ((income - 20000) *.2)
         print(f"The income tax that you need to pay is ${tax_to_pay}")
-  
+    # return to tax_to_pay
+    return tax_to_pay
+
  
