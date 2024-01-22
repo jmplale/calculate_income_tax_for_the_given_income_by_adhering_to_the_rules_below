@@ -10,4 +10,9 @@ def tax(income):
     elif income > 10000 and income <= 20000:
         tax_to_pay = (income - 10000) * 0.1
         print(f"The income tax that you need to pay is ${tax_to_pay}")
+    # make an else statement
+    else:
+        tax_to_pay = 1000 + ((income - 20000) *.2)
+        print(f"The income tax that you need to pay is ${tax_to_pay}")
+  
  
